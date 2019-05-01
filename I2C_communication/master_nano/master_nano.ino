@@ -1,17 +1,9 @@
 // Wire Master Reader
-// by Nicholas Zambetti <http://www.zambetti.com>
-
-// Demonstrates use of the Wire library
-// Reads data from an I2C/TWI slave device
-// Refer to the "Wire Slave Sender" example for use with this
-
-// Created 29 March 2006
-
-// This example code is in the public domain.
-
+// Receive binary values from slave node and translate values to numeric (an integer & a double float)
 
 #include <Wire.h>
 
+// union for short integer (1 byte)
 typedef union
 {
   int all;
@@ -21,6 +13,7 @@ typedef union
   }bit;
 } INT;
 
+// union for double float (8 byte)
 typedef union
 {
     double all;
