@@ -55,7 +55,7 @@ void requestEvent() {
   unsigned char a1 = 0;
   a1 = send_int.bit.i1;
   
-  unsigned char b1 = 0, b2 = 0, b3 = 0, b4 = 0, b5 = 0, b6 = 0, b7 = 0, b8 = 0;;
+  unsigned char b1 = 0, b2 = 0, b3 = 0, b4 = 0, b5 = 0, b6 = 0, b7 = 0, b8 = 0;
   b1 = send_double.bit.f1;
   b2 = send_double.bit.f2;
   b3 = send_double.bit.f3;
