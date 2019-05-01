@@ -1,17 +1,9 @@
 // Wire Slave Sender
-// by Nicholas Zambetti <http://www.zambetti.com>
-
-// Demonstrates use of the Wire library
-// Sends data as an I2C/TWI slave device
-// Refer to the "Wire Master Reader" example for use with this
-
-// Created 29 March 2006
-
-// This example code is in the public domain.
-
+// Convert numeric values (an integer & a double) to binary and send data to master node
 
 #include <Wire.h>
 
+// union to convert short integer to binary (1 byte)
 typedef union
 {
   int all;
@@ -21,6 +13,7 @@ typedef union
   }bit;
 } INT;
 
+// union to convert double float to binary (8 byte)
 typedef union
 {
     double all;
