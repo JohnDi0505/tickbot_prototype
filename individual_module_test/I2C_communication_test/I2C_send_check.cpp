@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 
 	struct data_frame_format
 	{
@@ -34,14 +34,14 @@ int main()
 
 	unsigned char	n=0;
 	for (i = 0; i < SIZE - 1; i++) { n += send_buffer.transfer_char[i]; }
-	send_buffer.data_frame.check_code = -n;						//Set check code byte
+	send_buffer.data_frame.check_code = -n;	//Set check code byte
 
 
-	for (i = 0; i < SIZE; i++) { receiver_buffer.transfer_char[i] = send_buffer.transfer_char[i]; }		//Transfer data...
-//	receiver_buffer.data_frame.data03 = 1.23456788;				//Assumed transmission error
+	for (i = 0; i < SIZE; i++) { receiver_buffer.transfer_char[i] = send_buffer.transfer_char[i]; }	//Transfer data...
+
 
 	unsigned char	m = 0;
-	for (i = 0; i < SIZE; i++) { m += receiver_buffer.transfer_char[i]; }		//Checking
+	for (i = 0; i < SIZE; i++) { m += receiver_buffer.transfer_char[i]; }	//Checking
 	if (m == 0) std::cout << "Transmission right" << std::endl;
 	else std::cout << "transmission error" << std::endl;
 	std::cout << std::endl;
@@ -53,5 +53,5 @@ int main()
 	for (i = 0; i < 6; i++) { std::cout << receiver_buffer.data_frame.data05[i]<<" "; }
 	std::cout << std::endl;
 	std::cout << receiver_buffer.data_frame.data06 <<std::endl;
-	std::cout << (int)m << std::endl;											//Display check results
+	std::cout << (int)m << std::endl;	//Display check results
 }
