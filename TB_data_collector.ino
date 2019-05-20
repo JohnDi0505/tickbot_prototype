@@ -60,7 +60,7 @@ sensor_data s;
 
 // void setup(): client board initialization
 void setup() {
-  Wire.begin(8); // join the I2C bus with an address = 8;
+  Wire.begin(8); // join the I2C bus with an address = 8
   Wire.onRequest(requestEvent); // register an event once requested by the master
 
   Serial.begin(115200); // start serial output channel
