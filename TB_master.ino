@@ -18,7 +18,7 @@
    Electronic module connected to the master node:
     1. Bluetooth module
     2. SD card read/write module
-  */
+*/
 
 // SimpleTimer.h library allows data I2C transmission to be independent from motor control
 #include <SimpleTimer.h>
