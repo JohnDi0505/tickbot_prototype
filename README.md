@@ -6,6 +6,6 @@
 ## Motivation
  
 
-[create an anchor](##Acknowledge)
+[Acknowledgement](##Acknowledgement)
 
-## Acknowledge
+## Acknowledgement
