@@ -1,3 +1,2 @@
-# 1st Generation of TickBot
-#### Arduino Robot for Tick Ecological Study
+# 1st Generation of Robot for Tick Surveillance
 #### Chong Di, MS., Department of Geography & Environmental Science, Hunter College, CUNY
