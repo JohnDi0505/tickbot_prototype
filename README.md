@@ -1,3 +1,2 @@
 # 1st Generation of TickBot
-## Arduino Robot to study tick ecology
-![TickBot](https://photos.app.goo.gl/zBWZ6CpFU6YgWbxx9){:height="50%" width="50%"}
+### Arduino Robot for tick Ecological Study (Chong Di, MS., Department of Geography & Environmental Science, Hunter College, CUNY)
