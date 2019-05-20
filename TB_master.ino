@@ -50,11 +50,13 @@ struct data
 // sizeof() function helps to calculate the total length of data structure in byte
 #define SIZE sizeof(data)
 
-/* define a union called "sensor_data" to represent received data in this case, the 
+/* 
+   define a union called "sensor_data" to represent received data in this case, the 
    union "sensor_data" represents a same chunck of memory (where the received data
    is stored in the master node) in two different ways:
     1). "data instance": readable and accessable as the elements in the structure "data";
-    2). "unsigned char transfer_char[SIZE]": unreadable but arranged in a binary array;*/
+    2). "unsigned char transfer_char[SIZE]": unreadable but arranged in a binary array;
+*/
 
 typedef union 
 {
