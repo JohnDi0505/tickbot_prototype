@@ -4,12 +4,12 @@
 #### Department of Geography & Environmental Science, Hunter College, CUNY
 
 [create an anchor]
-(##Motivation)
-(##Features of the Design)
-(##Wiring)
-(##Programming with C++)
-(##Comments & Further Development)
-(##Acknowledgement)
+[create an anchor](##Motivation)
+[create an anchor](##Features of the Design)
+[create an anchor](##Wiring)
+[create an anchor](##Programming with C++)
+[create an anchor](##Comments & Further Development)
+[create an anchor](##Acknowledgement)
 
 
 ## Motivation
