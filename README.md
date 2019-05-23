@@ -7,10 +7,10 @@
 
 [Features of the Design](###Features-of-the-Design)
 
-[create an anchor](### Wiring)
-[create an anchor](### Programming with C++)
-[create an anchor](### Comments & Further Development)
-[create an anchor](### Acknowledgement)
+[Wiring](###Wiring)
+[Programming with C++](###Programming-with-C++)
+[Comments & Further Development](###Comments-&-Further-Development)
+[Acknowledgement](###Acknowledgement)
 
 ### Motivation
 ### Features of the Design
