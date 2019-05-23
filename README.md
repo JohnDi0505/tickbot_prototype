@@ -5,7 +5,7 @@
 
 [Motivation](###Motivation)
 
-[Features of the Design](###Features of the Design)
+[Features of the Design](###Features-of-the-Design)
 
 [create an anchor](### Wiring)
 [create an anchor](### Programming with C++)
