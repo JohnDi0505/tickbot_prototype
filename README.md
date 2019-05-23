@@ -3,7 +3,7 @@
 #### Chong Di, MS.
 #### Department of Geography & Environmental Science, Hunter College, CUNY
 
-[### Motivation](### Motivation)
+[Motivation](### motivation)
 [create an anchor](### Features of the Design)
 [create an anchor](### Wiring)
 [create an anchor](### Programming with C++)
